@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spc-client
+# \u5E94\u7528\u540D\u79F0
+#spring.application.name=spc-client
+# \u5E94\u7528\u670D\u52A1 WEB \u8BBF\u95EE\u7AEF\u53E3
+server:
+  port: 8081
+  #server.port=8081
+#grpc
+grpc:
+  client:
+    grpc-server:
+      address: 'static://127.0.0.1:9090'
+      negotiationType: plaintext
+#grpc.client.grpc-server.address='static://127.0.0.1:9090'
+#grpc.client.grpc-server.negotiation-type=plaintext
+
+
